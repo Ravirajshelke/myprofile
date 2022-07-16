@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registraction</title>
+</head>
+
+<body>
+    <style>
+        td{
+            margin: 50px;
+        }
+    </style>
+
+    <form>
+        <fieldset>
+            <legend> Student Registraction Form</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <label for="fname">First Name</label></td>
+                        <td><input type="text" id="fname" placeholder="only first name"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="lname">Last Name</label></td>
+                        <td> <input type="text" id="lname" placeholder="only first name"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label>Mobile No. with country code</label></td>
+                        <td> <input type="number" required autofocus placeholder="only first number"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Country</label></td>
+                        <td><input type="text" value="india" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Do you have account</label></td>
+                        <td><input type="text" value="YES" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Date Of Birth</td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Available in Week</td>
+                        <td><input type="week"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Preferred Time</label></td>
+                        <td><input type="time"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Profile Photo</label></td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Certificate</label></td>
+                        <td><input type="file" multiple></td>
+                    </tr>
+                    <tr>
+                        <td>Select Graduation</td>
+                        <td>
+                            <select>
+                                <option>BCA</option>
+                                <option>BBA</option>
+                                <option>BCOM</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Graduation</Select></label></td>
+                        <td>
+                            <select>
+                                <optgroup label="Bacheloar of Computer Application">
+                                    <option>BCA 1<sup>st</sup>Year</option>
+                                    <option>BCA 2<sup>nd</sup>Year</option>
+                                    <option>BCA 3<sup>rd</sup>Year</option>
+                                </optgroup>
+                                <optgroup label="Bacheloar of Business Administraction">
+                                    <option>BBA 1<sup>st</sup>Year</option>
+                                    <option>BBA 2<sup>nd</sup>Year</option>
+                                    <option>BBA 3<sup>rd</sup>Year</option>
+                                </optgroup>
+                                <optgroup label="Bacheloar of Commerce">
+                                    <option>BCOM 1<sup>st</sup>Year</option>
+                                    <option>BCOM 2<sup>nd</sup>Year</option>
+                                    <option>BCOM 3<sup>rd</sup>Year</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Select Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender">
+                            <label>Male</label>
+                            <input type="radio" name="gender">
+                            <label>Female</label>
+                            <input type="radio" name="gender">
+                            <label>Others</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Please Select Traning</label></td>
+                        <td>
+                            <input type="checkbox">
+                            <label>Angular</label>
+                            <input type="checkbox">
+                            <label>Java</label>
+                            <input type="checkbox">
+                            <label>.Net</label>
+                            <input type="checkbox">
+                            <label>DevOps</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Address</label></td>
+                        <td><textarea cols="30" rows="7"></textarea></td>
+                    </tr>
+
+
+                    <td><input type="submit" value="Submit"></td>
+                    <td><input type="reset" value="Reset"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
