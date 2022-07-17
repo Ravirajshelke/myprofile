@@ -2,38 +2,41 @@
 <html>
 
 <head>
+    <title>personal Details</title>
+    <!-- CDN link for Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Personal Details</title>
     <style>
-        dialog {
-            background-color: rebeccapurple;
-            color: aliceblue;
+        body {
+            color: black;
+            padding: 10px;
+            border: 5px solid black;
+            border-collapse: collapse;
         }
     </style>
 </head>
 
+
 <body>
-    <h3 style="text-align: center;">Personal Details</h3>
+    <div>
+        <h4>Personal Details</h4>
 
-    <dialog open="" style="text-align: center; ">
-        <figure>
-            <img src="resources/profile.jpg" alt="myprofile">
-        </figure>
+        <i class="fa fa-mobile" aria-hidden="true"></i>:915386005<br>
+        <i class="fa fa-envelope" aria-hidden="true"></i> :Raviraj shelke<br>
+        <i class="fa fa-address-book" aria-hidden="true"></i>:- at post pirpimpalgaon<br>
+        <li>Date of Birth: oct/08/2000</li>
+    </div>
+
+    <hr>
+
+    <details>
+        <summary>Family Details</summary>
         <ul>
-            Name:Raviraj Shelke <br>
-            Mobile:9145386005<br>
-            Email:ravirajshelke122@gmail.com<br>
-            Birth Date:08-10-2000
+            <li>Father:-Jalinadr shelke</li>
+            <li>Mother:-kasabai shelke</li>
+            <li>sister:-dipali shelke</li>
         </ul>
-        <details>
-            <summary>Family Details</summary>
+    </details>
 
-            <li>Father:jalindar shelke</li>
-            <li>Mother: kasabai shelke</li>
-            <li>Sister:Dipali shelke</li>
 
-        </details>
-    </dialog>
 </body>
-
-</html>
